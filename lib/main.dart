@@ -1,5 +1,4 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 main(List<String> args) {
@@ -131,22 +130,19 @@ main(List<String> args) {
                 crossAxisAlignment:
                     CrossAxisAlignment.stretch, // Buttons strected like a row
                 children: [
-                  RaisedButton(
-                    color: Colors.red,
+                  ElevatedButton(
                     onPressed: () => print("First Button Clicked"),
-                    child: Text("Atamer Sahin",
+                    child: Text("First Button",
                         style: TextStyle(color: Colors.purple)),
                   ),
-                  RaisedButton(
-                    color: Colors.purple,
+                  ElevatedButton(
                     onPressed: () => print("Second Button Clicked"),
                     child: Text(
                       "Flutter and Dart",
                       style: TextStyle(color: Colors.green),
                     ),
                   ),
-                  RaisedButton(
-                    color: Colors.green,
+                  ElevatedButton(
                     onPressed: () => debugPrint("Third GButton Clicked"),
                     child: Text(
                       "Fast development",
@@ -159,10 +155,10 @@ main(List<String> args) {
                     onPressed: () => print("Icon Button Clicked"),
                     icon: Icon(Icons.add_a_photo),
                   ),
-                  FlatButton(
+                  TextButton(
                     onPressed: () => {},
                     child: Text(
-                      "Flat Button",
+                      "Text Button",
                       style: TextStyle(fontSize: 24),
                     ),
                   ),
@@ -174,4 +170,8 @@ main(List<String> args) {
       ),
     ),
   );
+}
+
+class MyApp {
+  void Atamer() {}
 }
