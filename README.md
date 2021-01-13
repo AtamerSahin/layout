@@ -2,7 +2,7 @@
 
 # Basic Flutter Layout
 
-# Image and Button Types
+ Image and Button Types
 
 
 
